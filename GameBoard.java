@@ -39,7 +39,7 @@ public class GameBoard  implements KeyListener{
         this.mazeTableModel = new MazeTableModel();
         this.pacManMovementThread = new PacManMovementThread(this.maze,this.mazeTableModel, lock);
         scoreCounter(this.maze);
-        System.out.println("score to win is " + this.scoreToWin);
+
 
 
         JFrame frame = new JFrame();
@@ -298,7 +298,6 @@ public class GameBoard  implements KeyListener{
 
         public void updatePacManPosition() {
             if (isValidCell(this.newRow,this.newCol)){
-                System.out.println("new row " + this.newRow + " new col" + this.newCol);
                 int currentCellValue = this.maze[this.newRow][this.newCol];
                 switch (currentCellValue) {
                     case 0 -> { // Empty cell
