@@ -1,7 +1,7 @@
 # PacManGame
 Projekt Pac-Man JavaFX to implementacja popularnej gry Pac-Man w języku Java z wykorzystaniem platformy JavaFX do interfejsu użytkownika. Gra Pac-Man jest klasyczną grą arkadową, w której gracz kontroluje postać Pac-Mana, próbując zebrać wszystkie punkty na planszy, unikając jednocześnie duchów.
 
-Instrukcje uruchomienia
+**Instrukcje uruchomienia**
 Aby uruchomić grę Pac-Man, wykonaj następujące kroki:
 
 
@@ -13,7 +13,7 @@ Uruchomienie: Otwórz projekt w swoim środowisku programistycznym lub terminalu
 
 Rozgrywka: Teraz możesz cieszyć się grą Pac-Man! Używaj strzałek na klawiaturze, aby poruszać Pac-Mana i zbierać punkty.
 
-Funkcje gry
+**Funkcje gry**
 
 Punkty: Zbieraj punkty, zaznaczając pola na planszy.
 
